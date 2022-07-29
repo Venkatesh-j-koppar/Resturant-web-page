@@ -18,6 +18,8 @@ body{
   width: 100vw;
   background-image: url("./assets/pexels-maxyne-barcel-10402282\ 1.png");
   background-size: cover;
+  max-width: 1600px; width: 100%; margin: 0px auto;
+
 }
 
 .container{
