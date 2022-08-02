@@ -16,8 +16,11 @@
 /* ------------------------------ */
 body{
   width: 100vw;
+  height: 100vh;
   background-image: url("./assets/pexels-maxyne-barcel-10402282\ 1.png");
   background-size: cover;
+  
+  background-repeat: no-repeat;
   max-width: 1600px; width: 100%; margin: 0px auto;
 
 }
@@ -32,11 +35,16 @@ body{
 }
 
 .navbar{
-  z-index: 1;  
+ 
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 40px;
+}
+
+.menu-button1{
+display: none;
+  
 }
 
 .list{
@@ -90,6 +98,22 @@ body{
 
 }
 
+
+
+@media screen and (max-width:800px) {
+  .menu-button1{
+    border: solid red;
+    width: 50px;
+    height: 50px;
+    display: block;
+  }
+
+  
+
+
+  
+  
+}
 
 
 
